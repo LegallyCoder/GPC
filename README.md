@@ -1,4 +1,4 @@
-# GPC
+# GPC (Generative Pre-trained Coder based GPT-2)
 Generative Pre-trained Coder based GPT-2
 Provider | URL
 --- | --- |
