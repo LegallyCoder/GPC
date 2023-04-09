@@ -14,5 +14,25 @@ Provider | URL
 --- | --- |
 Google Drive | [Google Drive](https://drive.google.com/drive/folders/1l2rpWAgTldKkjKPFqws5LRwzqMxG8a_w?usp=sharing) |
 
-# How can i use this ?
+# Using
 
+After downloading the model, you can use the code below.
+```python
+from transformers import GPT2Tokenizer, GPT2LMHeadModel
+import torch
+tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
+model = GPT2LMHeadModel.from_pretrained('gpc-1')
+def predict(n):
+  generated_text = model.generate(
+      input_ids=torch.tensor(tokenizer.encode(n)).unsqueeze(0),
+      max_length=50,
+      num_beams=5,
+      no_repeat_ngram_size=2,
+      early_stopping=True,
+      
+  )
+  generated_text = tokenizer.decode(generated_text[0], skip_special_tokens=True)
+  return generated_text
+predict("")#Enter what you want predicted here.
+
+```
