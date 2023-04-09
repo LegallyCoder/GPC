@@ -1,13 +1,11 @@
 # GPC (Generative Pre-trained Coder based GPT-2)
 ![indir (1)](https://i.hizliresim.com/hdcugjz.png)
 
-GPC (Generative Pre-trained Coder based on GPT-2) is an open-source tool and its ability to be improved is a significant advantage.
+GPC is an open-source and freely available tool, meaning that developers can access its code and use it without any cost. This can be particularly beneficial for those who are working on a tight budget or who may not have access to other expensive coding assistance tools.
 
-Being open-source means that users have the ability to review and modify the code of the tool. This can lead to community-driven improvements and bug fixes that can benefit all users. In addition, open-source tools tend to be more transparent and trustworthy than closed-source tools.
+While GPC has many advantages, it is important to note that it is not a silver bullet solution for coding. While it can offer helpful suggestions and make coding faster, it is still up to the programmer to understand and verify the code they are writing. Additionally, while the pre-training on 150,000 Python code files is a valuable feature, it does not necessarily guarantee accurate suggestions for every coding scenario.
 
-Furthermore, GPC's ability to be improved is also a valuable feature. Developers can fine-tune the model for specific coding tasks or integrate it with other tools and platforms. This can result in even more accurate and useful suggestions for code completion, as well as new features and capabilities for the tool.
-
-In summary, the fact that GPC is open-source and can be improved is a major advantage for developers looking for a powerful and flexible coding assistance tool.
+Overall, GPC is a valuable tool for developers looking to improve their coding workflow, particularly those working with Python. Its open-source and freely available nature make it accessible to a wide range of developers, while its potential for customization and improvement make it a flexible and adaptable tool for specific coding tasks.
 # Setup
 You can download the pre-trained GPC-1 version using the link below and use it in your projects.
 Provider | URL
@@ -36,3 +34,6 @@ def predict(n):
 predict("")#Enter what you want predicted here.
 
 ```
+# Sources
+https://www.kaggle.com/datasets/pranithchowdary/python-150k-code
+https://github.com/karndeepsingh/Custom-Next-Sentence-Prediction
