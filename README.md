@@ -1,5 +1,6 @@
 # GPC (Generative Pre-trained Coder based GPT-2)
 ![indir (1)](https://i.hizliresim.com/hdcugjz.png)
+
 GPT-2, which stands for "Generative Pre-trained Transformer 2," is a natural language processing model developed by OpenAI and released in 2019.
 
 The GPT-2 is a language model that has been pre-trained on large amounts of text data. It is capable of generating human-like language and can be fine-tuned for various natural language processing tasks, such as language translation, summarization, and question-answering.
