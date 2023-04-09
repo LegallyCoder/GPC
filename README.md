@@ -1,5 +1,6 @@
 # GPC (Generative Pre-trained Coder based GPT-2)
 ![indir (1)](https://i.hizliresim.com/hdcugjz.png)
+
 GPC (Generative Pre-trained Coder based on GPT-2) is an open-source tool and its ability to be improved is a significant advantage.
 
 Being open-source means that users have the ability to review and modify the code of the tool. This can lead to community-driven improvements and bug fixes that can benefit all users. In addition, open-source tools tend to be more transparent and trustworthy than closed-source tools.
