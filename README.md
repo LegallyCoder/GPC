@@ -18,7 +18,7 @@ After downloading the model, you can use the code below.
 ```python
 from transformers import GPT2Tokenizer, GPT2LMHeadModel
 import torch
-tokenizer = GPT2Tokenizer.from_pretrained('gpc-1')
+tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
 model = GPT2LMHeadModel.from_pretrained('gpc-1')
 def predict(n):
   generated_text = model.generate(
